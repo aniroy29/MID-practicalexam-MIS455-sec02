@@ -39,8 +39,7 @@ body {
     border-radius: 4px;
 }
 
-/* FLEX */
-
+/* HERO - FLEX */
 .main {
     display: flex;
     align-items: center;
@@ -48,6 +47,10 @@ body {
     padding: 50px 60px;
     background-color: #1a1a2e;
     color: white;
+}
+
+.main-text {
+    flex: 1;
 }
 
 .main-text h2 {
@@ -134,7 +137,7 @@ body {
     line-height: 1.7;
 }
 
-/* GRID */
+/* PRODUCT GRID - GRID */
 .product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,7 +192,7 @@ button:hover {
     background-color: #00b8d9;
 }
 
-/* CONTACT FLEX */
+/* CONTACT SECTION - FLEX */
 .input-info {
     display: flex;
     gap: 40px;
